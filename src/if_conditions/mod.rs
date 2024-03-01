@@ -14,7 +14,7 @@ pub fn cond() {
 
     // let age2 = 8;
 
-    // TODO: This is fucking sickkkk
+    // // TODO: This is fucking sickkkk
     // match age2 {
     //     1..=18 => println!("Important birthday"),
     //     21 | 50 => println!("Important birthday 2"),

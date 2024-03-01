@@ -1,6 +1,4 @@
-mod arrays;
-
-use arrays::array_fn;
+// use std::collections::HashMap;
 
 // fn main() {
 //     println!("What is your name?");
@@ -34,5 +32,45 @@ use arrays::array_fn;
 // }
 
 fn main() {
-    array_fn();
+    // Enums
+    // enum Days {
+    //     Monday,
+    //     Tuesday,
+    //     Wednesday,
+    //     Thursday,
+    //     Friday,
+    //     Saturday,
+    //     Sunday,
+    // }
+
+    // impl Days {
+    //     fn is_weekday(&self) -> bool {
+    //         match self {
+    //             Days::Saturday | Days::Sunday => false,
+    //             _ => true,
+    //         }
+    //     }
+    // }
+
+    // Days::Monday.is_weekday();
+    // Days::Saturday.is_weekday();
+
+    // Once string is moved to str2, str1 is no longer valid
+    // let str1 = String::from("Hello");
+
+    // let str2 = str1.clone();
+
+    // println!("{} {}", str1, str2);
+
+    // Hashmap
+
+    // let mut heroes = HashMap::new();
+
+    // heroes.insert("Superman", "Clark Kent");
+    // heroes.insert("Batman", "Bruce Wayne");
+    // heroes.insert("The Flash", "Barry Allen");
+
+    // for (k, v) in heroes.iter() {
+    //     println!("{}: {}", k, v);
+    // }
 }
